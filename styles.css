@@ -94,7 +94,7 @@ nav {
 
 /* Footer logo */
 footer .footer-logo img {
-  width: 1px; /* Updated to match header logo size */
+  width: 110px; /* Updated to match header logo size */
   height: auto; /* Changed to auto to maintain aspect ratio */
   opacity: 0.9;
 }
@@ -403,7 +403,7 @@ footer .footer-logo img {
 }
 
 .card {
-  background-color: rgba(255, 255, 255, 0.95);
+  background-color: #3c2a21;
   backdrop-filter: blur(5px);
   border-radius: 15px;
   padding: 1rem;
@@ -545,16 +545,16 @@ footer .footer-logo img {
   flex: 1;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  text-align: center;
-  gap: 2.5rem;
+  align-items: left;
+  text-align: left;
+  gap: 1rem;
   max-width: 600px;
 }
 
 .cta-text h2 {
   color: #5d4037;
   font-size: 2.5rem;
-  margin-bottom: 2rem;
+  margin-bottom: 0.1rem;
   line-height: 1.3;
 }
 
